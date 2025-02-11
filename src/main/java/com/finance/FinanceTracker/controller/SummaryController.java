@@ -17,7 +17,6 @@ public class SummaryController {
         this.service = service;
     }
 
-    // Summary: Total Income & Expenses
     @GetMapping("/summary")
     public Map<String, Double> getSummary() {
         Map<String, Double> summary = new HashMap<>();
